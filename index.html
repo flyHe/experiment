@@ -51,7 +51,10 @@
       </footer>
 
     </section>
-
+<template id="import-doc-content">
+      <!-- Make <link> here inert it won't block rendering other contents -->
+      <link rel="import" href="doc-content.html" onload="window.Loaded = true">
+</template>
   
   </body>
 </html>
